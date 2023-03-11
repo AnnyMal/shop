@@ -150,16 +150,24 @@ a:hover{
 }
 
 /*****************SHOP******************/
+input[type=text]:focus {
+    background-color: #231d1d;
+    color: white;
+}
+input[type=number]:focus {
+    background-color: #231d1d;
+    color: white;
+}
+
 .product__img{
     padding: 10%;
-    /*background: #191616;*/
     background: #270d0d;
     border: 1px solid #282828;
     width: 100%;
 }
 .product__img:hover{
     background: #381313;
-    transition: 0.5s ease-in-out;
+    transition: 0.1s ease-in-out;
 }
 .product__card{
     position: relative;
@@ -191,14 +199,12 @@ a:hover{
     border-radius: 2px;
 }
 .sidebar__body{
-    /*background: #303030;*/
     background: #431717;
     padding: 20px;
     border-top: 1px solid #282828;
     border-bottom: 1px solid #282828;
 }
 .header{
-    /*background: #231d1d;*/
     background: linear-gradient(180deg, #240707 0%, #561010 100%);
     padding: 20px;
     border-radius: 2px 2px 0 0;
@@ -337,6 +343,8 @@ label{
 .col-md-9{
     padding:0;
 }
+.progress-bar.active{
+    animation: progress-bar-stripes 2s linear infinite}
 /**MEDIA*********************************************************/
 
 @media(min-width: 992px){
@@ -413,4 +421,3 @@ label{
         margin: 10px 0;
     }
 }
-    /*в форме при написании становится белый цвет, он не очень
