@@ -9,48 +9,37 @@
 </head>
 <body>
 <div class="wrapper">
-<!--<header class="main-header">-->
-<!--    <div class="nav__top">-->
-<!--        <div class="container">-->
-<!--            <div class="menu-top">-->
-<!--                <a href="menu" type="button" class="icon-menu"><span></span></a>-->
-<!--                <ul class="nav">-->
-<!--                    <li class="nav-item">-->
-<!--                        <a href="" class="menu-top__item">Новости</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a href="" class="menu-top__item">Магазин</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a href="" class="menu-top__item">Корзина</a>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--                <div class="menu-top__button">-->
-<!--                    <button class="menu-button me-3"><a href="" class="menu-item">Личный кабинет</a></button>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</header>-->
     <section class="shop">
         <div class="container">
 <!--            <div class="row">-->
             <nav class="navbar mb-4">
-                <a href="#menu" type="button" class="icon-menu"><span></span></a>
+                <div class="hamb">
+                    <div class="hamb__field" id="hamb">
+                        <span class="bar"></span> <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+<!--                <a href="#menu" type="button" class="icon-menu"><span></span></a>-->
+                    </div>
+                <ul class="menu" id="menu">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Как начать играть?</a></li>
+                </ul>
+                <div class="popup" id="popup"></div>
                 <ul class="nav nav-shop">
                     <li class="nav-item">
-                        <a href="" class="menu-top__item">Новости</a>
+                        <a href="#" class="menu-top__item">Новости</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="menu-top__item">Магазин</a>
+                        <a href="#" class="menu-top__item">Магазин</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="menu-top__item">Корзина</a>
+                        <a href="#" class="menu-top__item">Корзина</a>
                     </li>
                 </ul>
                 <ul class="nav">
                     <li class="nav-item">
-                        <a href="" class="menu-top__item">Войти</a>
+                        <a href="#" class="menu-top__item">Войти</a>
                     </li>
                 </ul>
             </nav>
@@ -202,6 +191,6 @@
         </div>
     </footer>
 </div>
-<script src=""></script>
+<script src="script/script.js"></script>
 </body>
 </html>
